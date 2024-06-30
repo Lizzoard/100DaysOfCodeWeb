@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: "Comfortaa", sans-serif;
+  background-color: black;
+}
+
+header {
+  padding: 15px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#page-logo a {
+  font-family: "Bebas Neue";
+  font-size: 36px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(16, 255, 28);
+  text-shadow: 3px 2px 2px rgb(9, 34, 11);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+}
+
+header li {
+  margin-left: 20px;
+}
+
+#page-logo a:hover {
+  color: rgb(61, 255, 71);
+}
