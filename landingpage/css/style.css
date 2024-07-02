@@ -44,3 +44,22 @@
 #hero-content a:hover {
   background-color: rgb(74, 240, 82);
 }
+
+.high-content {
+  margin: 0 20px;
+}
+
+.high-content img {
+  height: 200px;
+  width: 100%;
+  box-shadow: 2px 4px 8px rgb(29, 28, 28);
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+#highlight {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+}

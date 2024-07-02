@@ -31,7 +31,6 @@ ul {
 
 header ul {
   display: flex;
-  flex-direction: row;
 }
 
 header li {
@@ -41,13 +40,28 @@ header li {
 header a {
   text-decoration: none;
   color: rgb(16, 255, 28);
+  font-size: 20px;
+  border-radius: 6px;
+  padding: 12px;
   text-shadow: 3px 3px 5px rgb(9, 34, 11);
 }
 
 header a:hover {
   color: rgb(61, 255, 71);
+  background-color: rgb(16, 255, 28);
 }
 
 #page-logo a:hover {
   color: rgb(61, 255, 71);
+}
+
+#highlights {
+  color: rgb(16, 255, 28);
+  text-align: center;
+}
+
+#highlights h2 {
+  font-family: "Bebas Neue";
+  font-size: 55px;
+  text-shadow: 4px 3px 8px rgba(9, 34, 11, 0.6);
 }
